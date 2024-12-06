@@ -3,7 +3,6 @@ from langchain import OpenAI
 from langchain.docstore.document import Document
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
-from langchain_community.llms import OpenAI
 
 def generate_response(txt):
     # Instantiate the LLM model
